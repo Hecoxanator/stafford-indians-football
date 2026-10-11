@@ -16342,3 +16342,51 @@ game_id,season,date,opponent,home_away,player,player_id,stat_category,stat_name,
 2026_10_02_ColonialForge,2026,10/2/2026,Colonial Forge,Away,Zech Waters,waterszech,Receiving,RecYards,8
 2026_10_02_ColonialForge,2026,10/2/2026,Colonial Forge,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Made,1
 2026_10_02_ColonialForge,2026,10/2/2026,Colonial Forge,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Attempted,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Passing,Completions,6
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Passing,Attempts,15
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Passing,PassYards,37
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Passing,PassTD,0
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Passing,Interceptions,0
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Passing,Completions,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Passing,Attempts,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Passing,PassYards,52
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Passing,PassTD,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Passing,Interceptions,0
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Rushing,RushAtt,10
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Rushing,RushYds,185
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Brayden Dalton,daltonbrayden,Rushing,RushTD,2
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Rushing,RushAtt,4
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Rushing,RushYds,38
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Easton Hibberd,hibberdeaston,Rushing,RushAtt,3
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Easton Hibberd,hibberdeaston,Rushing,RushYds,24
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Dajuan Lawton,lawtondajuan,Rushing,RushAtt,8
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Dajuan Lawton,lawtondajuan,Rushing,RushYds,70
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Dajuan Lawton,lawtondajuan,Rushing,RushTD,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kani Strother,strotherkani,Rushing,RushAtt,2
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kani Strother,strotherkani,Rushing,RushYds,24
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Max Penn,pennmax,Rushing,RushAtt,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Max Penn,pennmax,Rushing,RushYds,5
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Nana Koranteng,korantengnana,Rushing,RushAtt,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Nana Koranteng,korantengnana,Rushing,RushYds,10
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Nana Koranteng,korantengnana,Rushing,RushTD,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kaleb Oglesby,oglesbykaleb,Rushing,RushAtt,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kaleb Oglesby,oglesbykaleb,Rushing,RushYds,5
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Draco Martin,martindraco,Rushing,RushAtt,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Draco Martin,martindraco,Rushing,RushYds,3
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Toriyon Stephens,stephenstoriyon,Rushing,RushAtt,3
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Toriyon Stephens,stephenstoriyon,Rushing,RushYds,12
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Sebastian Smith,smithsebastian,Rushing,RushAtt,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Sebastian Smith,smithsebastian,Rushing,RushYds,3
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kani Strother,strotherkani,Receiving,Receptions,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Kani Strother,strotherkani,Receiving,RecYards,12
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Receiving,Receptions,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Luke Flynn,flynnluke,Receiving,RecYards,3
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Zech Waters,waterszech,Receiving,Receptions,2
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Zech Waters,waterszech,Receiving,RecYards,57
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Zech Waters,waterszech,Receiving,RecTD,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Egon Gonzalez Escalante,gonzalezescalanteegon,Receiving,Receptions,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Egon Gonzalez Escalante,gonzalezescalanteegon,Receiving,RecYards,12
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Sebastian Smith,smithsebastian,Receiving,Receptions,1
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Sebastian Smith,smithsebastian,Receiving,RecYards,8
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Colin Robinson,robinsoncolin,Kicking,Extra Points Made,5
+2026_10_09_Hartwood,2026,10/9/2016,Hartwood,Home,Colin Robinson,robinsoncolin,Kicking,Extra Points Attempted,5
