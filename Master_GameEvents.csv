@@ -318,3 +318,4 @@ game_id,season,date,opponent,event_type,scoring_player,scoring_player_id,passing
 2026_09_10_OsbournPark,2026,9/10/2026,Osbourn Park,two_pt_rush,Brayden Dalton,daltonbrayden,,,,2-point PAT
 2026_09_10_OsbournPark,2026,9/10/2026,Osbourn Park,interception_return_td,Bradley Sullivan,sullivanbradley,,,,?-yard interception return TD
 2026_10_09_Hartwood,2026,10/9/2026,Hartwood,two_pt_rush,Nana Koranteng,korantengnana,,,,2-point PAT
+2026_10_09_Hartwood,2026,10/9/2026,Hartwood,fumble_return_td,Luke Flynn,flynnluke,,,,?-yard fumble return TD
