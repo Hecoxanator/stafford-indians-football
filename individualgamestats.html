@@ -291,75 +291,58 @@ return bDate - aDate;
     rows.forEach(r => tbody.appendChild(r));
 }
 
-function setupTop10(tableId, defaultSortCol, defaultAsc = false) {
 
+function setupTop10(tableId, defaultSortCol, defaultAsc = false) {
     const table = document.getElementById(tableId);
     const tbody = table.querySelector("tbody");
-
     let expanded = false;
 
     function updateRows() {
-
         const rows = Array.from(tbody.querySelectorAll("tr"));
 
         rows.forEach((row, index) => {
-
-            if (!expanded && index >= 10) {
-                row.style.display = "none";
-            }
-
-            else {
-                row.style.display = "";
-            }
+            row.style.display = expanded || index < 10 ? "" : "none";
         });
     }
 
     const toggle = document.createElement("button");
-
     toggle.className = "toggle-link";
     toggle.textContent = "Show Full Table";
 
     toggle.addEventListener("click", () => {
-
         expanded = !expanded;
-
-        toggle.textContent =
-            expanded
+        toggle.textContent = expanded
             ? "Show Top 10 Only"
             : "Show Full Table";
-
         updateRows();
     });
 
     table.after(toggle);
 
-    // initial sort
-    sortTable(table, defaultSortCol, defaultAsc);
+    // Use only the actual column-header row.
+    const headerRows = table.querySelectorAll("thead tr");
+    const headerRow = tableId === "rrTable"
+        ? headerRows[headerRows.length - 1]
+        : headerRows[0];
 
-    // initial hide
-    updateRows();
+    const headers = Array.from(headerRow.querySelectorAll("th"));
+    const sortState = {};
 
-    // re-hide after sorting
-    const headers = table.querySelectorAll("thead th");
-
-    let sortState = {};
-
-    headers.forEach((th, i) => {
-
+    headers.forEach((th, index) => {
         th.classList.add("sortable");
-
-        sortState[i] = true;
+        sortState[index] = true;
 
         th.addEventListener("click", () => {
-
-            sortTable(table, i, sortState[i]);
-
-            sortState[i] = !sortState[i];
-
+            sortTable(table, index, sortState[index]);
+            sortState[index] = !sortState[index];
             updateRows();
         });
     });
+
+    sortTable(table, defaultSortCol, defaultAsc);
+    updateRows();
 }
+
 // ================= LOAD DATA =================
 
 Promise.all([
