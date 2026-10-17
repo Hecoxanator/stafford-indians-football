@@ -761,7 +761,7 @@ game_id,season,date,opponent,home_away,player,player_id,stat_category,stat_name,
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Durward Matherly,matherlydurward,Passing,Attempts,13
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Durward Matherly,matherlydurward,Passing,PassYards,45
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Durward Matherly,matherlydurward,Passing,PassTD,0
-1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Durward Matherly,matherlydurward,Passing,Interceptions,0
+1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Durward Matherly,matherlydurward,Passing,Interceptions,1
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Vernon Grogan,groganvernon,Rushing,RushAtt,10
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Vernon Grogan,groganvernon,Rushing,RushYds,46
 1959_09_11_JamesMonroe,1959,9/11/1959,James Monroe,Away,Larry Conyers,conyerslarry,Receiving,Receptions,2
