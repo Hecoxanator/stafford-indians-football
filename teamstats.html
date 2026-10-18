@@ -193,47 +193,25 @@
 <table id="allTimeTable">
     <thead>
         <tr>
+            <th>Seasons</th>
 
-            <th>
-                Seasons
-            </th>
+            <th class="stat">Wins</th>
+            <th class="stat">Losses</th>
+            <th class="stat">Ties</th>
+            <th class="stat">Win %</th>
 
-            <th class="stat">
-                Points<br>For
-            </th>
+            <th class="stat">Home<br>Record</th>
+            <th class="stat">Away<br>Record</th>
 
-            <th class="stat">
-                Points<br>Against
-            </th>
-
-            <th class="stat">
-                Point<br>Diff
-            </th>
-
-            <th class="stat">
-                Passing<br>Yards
-            </th>
-
-            <th class="stat">
-                Rushing<br>Yards
-            </th>
-
-            <th class="stat">
-                Total<br>Yards
-            </th>
-
-            <th class="stat">
-                Passing Yards<br>Allowed
-            </th>
-
-            <th class="stat">
-                Rushing Yards<br>Allowed
-            </th>
-
-            <th class="stat">
-                Total Yards<br>Allowed
-            </th>
-
+            <th class="stat">Points<br>For</th>
+            <th class="stat">Points<br>Against</th>
+            <th class="stat">Point<br>Diff</th>
+            <th class="stat">Passing<br>Yards</th>
+            <th class="stat">Rushing<br>Yards</th>
+            <th class="stat">Total<br>Yards</th>
+            <th class="stat">Passing Yards<br>Allowed</th>
+            <th class="stat">Rushing Yards<br>Allowed</th>
+            <th class="stat">Total Yards<br>Allowed</th>
         </tr>
     </thead>
 
@@ -538,6 +516,14 @@ function sortSeasonTable(column) {
 function buildAllTimeRow() {
 
     const totals = {
+        wins: 0,
+        losses: 0,
+        ties: 0,
+
+        home_wins: 0,
+        home_losses: 0,
+        away_wins: 0,
+        away_losses: 0,
 
         points_for: 0,
         points_against: 0,
@@ -554,8 +540,30 @@ function buildAllTimeRow() {
 
     allRows.forEach(r => {
 
-        totals.points_for += Number(r.points_for || 0);
-        totals.points_against += Number(r.points_against || 0);
+        const pf = Number(r.points_for || 0);
+        const pa = Number(r.points_against || 0);
+        const location = String(r.home_away || "")
+            .trim()
+            .toLowerCase();
+
+        if (pf > pa) {
+            totals.wins++;
+
+            if (location === "home") totals.home_wins++;
+            if (location === "away") totals.away_wins++;
+
+        } else if (pf < pa) {
+            totals.losses++;
+
+            if (location === "home") totals.home_losses++;
+            if (location === "away") totals.away_losses++;
+
+        } else {
+            totals.ties++;
+        }
+
+        totals.points_for += pf;
+        totals.points_against += pa;
 
         totals.passing_yards += Number(r.passing_yards || 0);
         totals.rushing_yards += Number(r.rushing_yards || 0);
@@ -566,38 +574,39 @@ function buildAllTimeRow() {
         totals.total_yards_allowed += Number(r.total_yards_allowed || 0);
     });
 
-    totals.point_diff =
-        totals.points_for -
-        totals.points_against;
+    totals.point_diff = totals.points_for - totals.points_against;
+
+    const games = totals.wins + totals.losses + totals.ties;
+
+    const winPct = games
+        ? ((totals.wins + totals.ties / 2) / games).toFixed(3)
+        : "0.000";
 
     const tbody = document.getElementById("allTimeBody");
 
     tbody.innerHTML = `
-
         <tr>
+            <td class="left">1952-present</td>
 
-            <td class="left">
-                1952-present
-            </td>
+            <td class="right">${totals.wins}</td>
+            <td class="right">${totals.losses}</td>
+            <td class="right">${totals.ties}</td>
+            <td class="right">${winPct}</td>
+
+            <td class="right">${totals.home_wins}-${totals.home_losses}</td>
+            <td class="right">${totals.away_wins}-${totals.away_losses}</td>
 
             <td class="right">${totals.points_for.toLocaleString()}</td>
-
             <td class="right">${totals.points_against.toLocaleString()}</td>
-
             <td class="right">${totals.point_diff.toLocaleString()}</td>
 
             <td class="right">${totals.passing_yards.toLocaleString()}</td>
-
             <td class="right">${totals.rushing_yards.toLocaleString()}</td>
-
             <td class="right">${totals.total_yards.toLocaleString()}</td>
 
             <td class="right">${totals.passing_yards_allowed.toLocaleString()}</td>
-
             <td class="right">${totals.rushing_yards_allowed.toLocaleString()}</td>
-
             <td class="right">${totals.total_yards_allowed.toLocaleString()}</td>
-
         </tr>
     `;
 }
