@@ -3630,6 +3630,7 @@ Promise.all([
 
     let losses = 0;
 
+let ties = 0;
 
     games.forEach((g, index) => {
 
@@ -3664,7 +3665,11 @@ Promise.all([
 
             losses++;
 
+        } else {
+    ties++;
+
         }
+
 
 
         const tr =
@@ -3714,7 +3719,7 @@ Promise.all([
 
             <td class="record">
 
-                ${wins}-${losses}
+                ${wins}-${losses}${ties > 0 ? "-" + ties : ""}
 
             </td>
 
