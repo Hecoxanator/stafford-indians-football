@@ -1161,10 +1161,15 @@ game_id,season,date,opponent,home_away,player,player_id,stat_category,stat_name,
 1962_10_20_JRTucker,1962,10/20/1962,J.R. Tucker,Home,Don Resio,resiodon,Receiving,Receptions,1
 1962_10_20_JRTucker,1962,10/20/1962,J.R. Tucker,Home,Don Resio,resiodon,Receiving,RecYards,17
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,Completions,5
-1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,Attempts,15
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,Attempts,14
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,PassYards,67
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,PassTD,1
-1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,Interceptions,1
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Passing,Interceptions,0
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Jim Scott,scottjim,Passing,Completions,0
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Jim Scott,scottjim,Passing,Attempts,1
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Jim Scott,scottjim,Passing,PassYards,0
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Jim Scott,scottjim,Passing,PassTD,0
+1962_10_26_Orange,1962,10/26/1962,Orange,Away,Jim Scott,scottjim,Passing,Interceptions,1
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Rushing,RushAtt,2
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Rushing,RushYds,43
 1962_10_26_Orange,1962,10/26/1962,Orange,Away,Dave Holsinger,holsingerdave,Rushing,RushTD,2
