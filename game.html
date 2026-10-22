@@ -824,11 +824,25 @@ document.getElementById(staffordExtrasId).innerHTML = `
         return `<a href="season.html?season=${season}">Stafford Indians</a>`;
     }
 
-    document.getElementById("awayTeam").innerHTML =
-        awayTeam === "Stafford Indians" ? staffordLink(game.season) : awayTeam;
+    
+function opponentLink() {
+    if (!game.opponent_id) {
+        return opponentFull;
+    }
 
-    document.getElementById("homeTeam").innerHTML =
-        homeTeam === "Stafford Indians" ? staffordLink(game.season) : homeTeam;
+    return `<a href="opponent.html?opponent_id=${encodeURIComponent(game.opponent_id)}">${opponentFull}</a>`;
+}
+
+document.getElementById("awayTeam").innerHTML =
+    awayTeam === "Stafford Indians"
+        ? staffordLink(game.season)
+        : opponentLink();
+
+document.getElementById("homeTeam").innerHTML =
+    homeTeam === "Stafford Indians"
+        ? staffordLink(game.season)
+        : opponentLink();
+
 
     const shortOpponent = game.opponent || "";
     const shortStafford = "Stafford";
