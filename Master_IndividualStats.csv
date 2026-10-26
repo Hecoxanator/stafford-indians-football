@@ -16442,3 +16442,44 @@ game_id,season,date,opponent,home_away,player,player_id,stat_category,stat_name,
 2026_10_16_Massaponax,2026,10/16/2026,Massaponax,Away,Egon Gonzalez Escalante,gonzalezescalanteegon,Receiving,RecYards,54
 2026_10_16_Massaponax,2026,10/16/2026,Massaponax,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Made,3
 2026_10_16_Massaponax,2026,10/16/2026,Massaponax,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Attempted,3
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nana Koranteng,korantengnana,Passing,Completions,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nana Koranteng,korantengnana,Passing,Attempts,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nana Koranteng,korantengnana,Passing,PassYards,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nana Koranteng,korantengnana,Passing,PassTD,0
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nana Koranteng,korantengnana,Passing,Interceptions,0
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Passing,Completions,17
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Passing,Attempts,39
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Passing,PassYards,256
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Passing,PassTD,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Passing,Interceptions,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Passing,Completions,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Passing,Attempts,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Passing,PassYards,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Passing,PassTD,0
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Passing,Interceptions,0
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Rushing,RushAtt,19
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Rushing,RushYds,152
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Brayden Dalton,daltonbrayden,Rushing,RushTD,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Rushing,RushAtt,5
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Rushing,RushYds,45
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Rushing,RushTD,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Easton Hibberd,hibberdeaston,Rushing,RushAtt,4
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Easton Hibberd,hibberdeaston,Rushing,RushYds,23
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Receiving,Receptions,5
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Receiving,RecYards,139
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Luke Flynn,flynnluke,Receiving,RecTD,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Zech Waters,waterszech,Receiving,Receptions,7
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Zech Waters,waterszech,Receiving,RecYards,73
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Zech Waters,waterszech,Receiving,RecTD,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Egon Gonzalez Escalante,gonzalezescalanteegon,Receiving,Receptions,4
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Egon Gonzalez Escalante,gonzalezescalanteegon,Receiving,RecYards,36
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Sebastian Smith,smithsebastian,Receiving,Receptions,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Sebastian Smith,smithsebastian,Receiving,RecYards,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Tristen Goodwin,goodwintristen,Receiving,Receptions,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Tristen Goodwin,goodwintristen,Receiving,RecYards,8
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nate Chute,chutenate,Receiving,Receptions,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Nate Chute,chutenate,Receiving,RecYards,2
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Made,3
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Colin Robinson,robinsoncolin,Kicking,Extra Points Attempted,3
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Colin Robinson,robinsoncolin,Kicking,Field Goals Made,1
+2026_10_23_Riverbend,2026,10/23/2026,Riverbend,Away,Colin Robinson,robinsoncolin,Kicking,Field Goal Distances,40
