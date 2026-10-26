@@ -16,6 +16,14 @@
             text-align: left;
         }
 
+        .rivalry-subtitle {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
         h2 {
             margin-top: 25px;
             margin-bottom: 10px;
@@ -156,6 +164,7 @@
 <div id="breadcrumb"></div>
 
 <h1 id="pageTitle">Stafford Indians vs. Opponent</h1>
+<div id="rivalrySubtitle" class="rivalry-subtitle" hidden></div>
 
 <div id="loading">Loading opponent history...</div>
 <div id="error" role="alert" hidden></div>
@@ -922,6 +931,22 @@ async function loadOpponentPage() {
 
         document.getElementById("pageTitle").textContent =
             `Stafford Indians vs. ${latestOpponentName}`;
+
+        // Display special subtitles for designated rivalries.
+        const rivalrySubtitle = document.getElementById("rivalrySubtitle");
+
+        const normalizedOpponent = latestOpponentName.toLowerCase();
+
+        if (normalizedOpponent.includes("north stafford")) {
+            rivalrySubtitle.textContent = '"Battle of the Bell"';
+            rivalrySubtitle.hidden = false;
+        } else if (normalizedOpponent.includes("james monroe")) {
+            rivalrySubtitle.textContent = '"Battle of the Bridge"';
+            rivalrySubtitle.hidden = false;
+        } else {
+            rivalrySubtitle.textContent = "";
+            rivalrySubtitle.hidden = true;
+        }
 
         renderBreadcrumb([
             {
