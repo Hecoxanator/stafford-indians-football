@@ -99,7 +99,7 @@ game_id,season,date,opponent,event_type,scoring_player,scoring_player_id,passing
 1966_10_28_Culpeper,1966,10/28/1966,Culpeper,fumble_return_td,Horace Green,greenhorace,,,0,0-yard fumble return TD
 1966_11_04_Brentsville,1966,11/4/1966,Brentsville,punt_return_td,Horace Green,greenhorace,,,80,80-yard punt return TD
 1966_11_04_Brentsville,1966,11/4/1966,Brentsville,one_pt_rush,Horace Green,greenhorace,,,,1-point PAT
-1967_09_08_StonewallJackson-Manassas,1967,9/8/1967,Stonewall Jackson-Manassas,interception_return_td,Frank Robinson,robinsonfrank,,,50,50-yard interception return TD
+1967_09_08_StonewallJackson-Manassas,1967,9/8/1967,Stonewall Jackson-Manassas,interception_return_td,Frank Robinson,robinsonfrank,,,30,30-yard interception return TD
 1967_09_15_Woodbridge,1967,9/15/1967,Woodbridge,kick_return_td,Jerry Thompson,thompsonjerry,,,86,86-yard kickoff return TD
 1967_11_03_Brentsville,1967,11/3/1967,Brentsville,one_pt_rush,Dan Northern,northerndan,,,,1-point PAT
 1968_09_06_Woodbridge,1968,9/6/1968,Woodbridge,one_pt_rush,Dan Northern,northerndan,,,,1-point PAT
